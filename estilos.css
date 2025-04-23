@@ -7,15 +7,20 @@ body {
     box-sizing: border-box;
 }
 
-.parrafo {
+#titulo {
+    font-size: 3rem;
+    color: black;
+}
+
+.subtitulo {
     font-size: 1.5rem;
-    text-align: center;
-    background-color: hsl(34, 81%, 81%);
-    padding: 10px;
-    border-radius:10px;
+    font-style: italic;
+    color: black;
+    margin-bottom: 10px;
 }
 
 .presentacion {
+    margin: 40px auto;
     display: flex;
     gap: 10px;
     margin-bottom: 30px;
@@ -27,42 +32,19 @@ body {
     border-radius: 100%;
 }
 
-#titulo {
-    font-size: 3rem;
-    color: black
-}
-
-.subtitulo {
-    font-size: 1.5rem;
-    font-style: italic;
-    color: black;
-    margin-bottom: 10px;
-}
-
-.etiquetas {
-    font-weight: bold;
-    color: black
-}
-
-.descripcion {
-    font-size: 1.3rem;
-    color: black;
-    text-align: center;
-    margin-top: 10px;
-    padding: 0 10px;
-    justify-content: center;
+nav ul li {
+    font-size: 1em;
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 20px;
     margin: 0 auto 20px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: lch(90.71% 12.59 78.87);
     gap: 10px;
-    padding: 10px;
     border-radius: 8px;
 }
 
@@ -75,6 +57,67 @@ nav a {
 nav a:hover {
     color: #a16e2e;
 }
+
+.experiencia {
+    max-width: 800px;
+    margin: 80px auto;
+    background-color: hwb(35 87% 3%);
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.experiencia h2 {
+    color: #444;
+    font-size: 1.6em;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.trabajo h3 {
+    font-size: 1.3em;
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.empresa {
+    font-style: italic;
+    color: hsl(0, 0%, 22%);
+    margin-bottom: 10px;
+}
+
+.descripcion {
+    font-size: 1.2em;
+    line-height: 1.4;
+    color: black;
+    margin-bottom: 10px;
+}
+
+section ul li {
+    color: black;
+    font-size: 1.2em;
+    padding-left: 20px;
+    list-style-type: disc;
+    margin-bottom: 8px;
+}
+
+.redes-sociales {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .redes-sociales a {
+    color: #222;
+    margin: 0 15px;
+    font-size: 1.8rem;
+    transition: color 0.3s;
+  }
+  
+  .redes-sociales a:hover {
+    color: #a16e2e; /* o el color que estés usando */
+  }
+  
 
 @media (min-width: 768px) {
     body {
@@ -94,5 +137,4 @@ nav a:hover {
         align-items: center;
         gap: 30px;
     }
-
 }
