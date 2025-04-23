@@ -7,17 +7,32 @@ body {
     box-sizing: border-box;
 }
 
+p {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.presentacion {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.presentacion img {
+    width: 120px;
+    height: auto;
+    border-radius: 100%;
+}
+
 #titulo {
     font-size: 2.5rem;
-    text-align: center;
     color: gray;
 }
 
 .subtitulo {
-    text-align: center;
     font-style: italic;
     color: #666;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .etiquetas {
@@ -26,10 +41,12 @@ body {
 }
 
 .descripcion {
-    color: gray;
-    line-height: 1.6;
+    font-size: 1.3rem;
+    color: #333;
+    text-align: center;
     margin-top: 10px;
     padding: 0 10px;
+    justify-content: center;
 }
 
 nav ul {
@@ -57,25 +74,21 @@ nav a:hover {
 
 @media (min-width: 768px) {
     body {
-        margin: 40px auto;
+        margin: 10px auto;
         max-width: 900px;
     }
 
     nav ul {
         flex-direction: row;
         justify-content: center;
+        gap: 80px;
+    }
+
+    .presentacion {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         gap: 30px;
     }
 
-    #titulo {
-        font-size: 3rem;
-    }
-
-    .subtitulo {
-        font-size: 1.25rem;
-    }
-
-    .descripcion {
-        font-size: 1.1rem;
-    }
 }
