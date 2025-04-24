@@ -58,7 +58,7 @@ nav a:hover {
     color: #a16e2e;
 }
 
-.experiencia {
+.tituloviñeta {
     max-width: 800px;
     margin: 80px auto;
     background-color: hwb(35 87% 3%);
@@ -67,18 +67,12 @@ nav a:hover {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.experiencia h2 {
+.tituloviñeta h2 {
     color: #444;
     font-size: 1.6em;
     border-bottom: 2px solid #ddd;
     padding-bottom: 5px;
     margin-bottom: 20px;
-}
-
-.trabajo h3 {
-    font-size: 1.3em;
-    color: #222;
-    margin-bottom: 5px;
 }
 
 .empresa {
@@ -105,20 +99,19 @@ section ul li {
 .redes-sociales {
     text-align: center;
     margin-top: 40px;
-  }
+}
   
-  .redes-sociales a {
+.redes-sociales a {
     color: #222;
     margin: 0 15px;
     font-size: 1.8rem;
     transition: color 0.3s;
-  }
+}
   
-  .redes-sociales a:hover {
+.redes-sociales a:hover {
     color: #a16e2e;
-  }
+}
   
-
 @media (min-width: 768px) {
     body {
         margin: 10px auto;
