@@ -123,7 +123,7 @@ section ul li {
         justify-content: center;
         gap: 80px;
     }
-    
+
 
     .presentacion {
         flex-direction: row;
@@ -131,4 +131,39 @@ section ul li {
         align-items: center;
         gap: 30px;
     }
+}
+
+.tabla-habilidades {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabla-habilidades tr:nth-child(even) {
+    background-color: lch(90.71% 12.59 78.87);
+}
+
+.tabla-habilidades th, .tabla-habilidades td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+.tabla-habilidades th {
+    background-color: lch(90.71% 12.59 78.87);
+    color: #333;
+    font-weight: bold;
+}
+
+.tabla-habilidades td {
+    color: #222;
+    font-size: 1.05em;
+}
+
+#icono {
+    text-align: center;
+}
+
+#centrar {
+    text-align: center;
 }
