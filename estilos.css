@@ -123,6 +123,7 @@ section ul li {
         justify-content: center;
         gap: 80px;
     }
+    
 
     .presentacion {
         flex-direction: row;
